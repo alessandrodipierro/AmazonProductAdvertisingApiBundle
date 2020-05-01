@@ -12,7 +12,7 @@ A symfony wrapper bundle for Amazon Product Advertising API.
  
   ## Configure the bundle
   
-  This bundle was designed to just work out of the box. The only thing you have to configure in order to get this bundle up and running is your API [token](https://dev.bitly.com/v4/#section/Authentication).
+  This bundle was designed to just work out of the box. The only thing you have to configure in order to get this bundle up and running is your API [token](https://webservices.amazon.com/paapi5/documentation/).
   
   ```yaml
   # config/packages/amazon_pa_api.yaml
