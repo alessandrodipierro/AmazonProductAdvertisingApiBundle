@@ -16,6 +16,6 @@
     "flowdee/paapi5-php-sdk": "^1.0"
   },
   "autoload": {
-    "psr-4": { "AlessandroDiPierro\\AmazonProductAdvertisingBundle\\": "" }
+    "psr-4": { "AlessandroDiPierro\\AmazonProductAdvertisingApiBundle\\": "" }
   }
 }
