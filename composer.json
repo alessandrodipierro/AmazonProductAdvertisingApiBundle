@@ -1,0 +1,21 @@
+{
+  "name": "alessandrodipierro/amazon-product-advertising-api-bundle",
+  "description": "A symfony wrapper bundle for Amazon Product Advertising API.",
+  "minimum-stability": "stable",
+  "keywords": ["amazon", "product-advertising", "api", "amazon-api", "php", "symfony"],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alessandro Di Pierro",
+      "email": "dipierroale@outlook.it"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^4.4|^5.0",
+    "flowdee/paapi5-php-sdk": "^1.0"
+  },
+  "autoload": {
+    "psr-4": { "AlessandroDiPierro\\AmazonProductAdvertisingBundle\\": "" }
+  }
+}

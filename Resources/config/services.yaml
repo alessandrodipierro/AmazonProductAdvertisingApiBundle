@@ -1,0 +1,3 @@
+services:
+  AlessandroDiPierro\AmazonProductAdvertisingApiBundle\Service\Api:
+    arguments: ['@service_container']
