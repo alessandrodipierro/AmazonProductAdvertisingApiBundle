@@ -13,7 +13,8 @@
   "require": {
     "php": "^7.4",
     "symfony/framework-bundle": "^4.4|^5.0",
-    "flowdee/paapi5-php-sdk": "^1.0"
+    "flowdee/paapi5-php-sdk": "^1.0",
+    "ext-curl": "*"
   },
   "autoload": {
     "psr-4": { "AlessandroDiPierro\\AmazonProductAdvertisingApiBundle\\": "" }

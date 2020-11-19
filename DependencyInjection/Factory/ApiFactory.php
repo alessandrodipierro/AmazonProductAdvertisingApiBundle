@@ -20,6 +20,16 @@ class ApiFactory
             ->setHost($config['host'])
             ->setRegion($config['region']);
 
-        return new DefaultApi(new Client(), $apiConfig);
+        return new DefaultApi(new Client([
+            'config' => [
+                'curl' => [
+                    CURLOPT_HEADER => false,
+                    CURLOPT_SSL_VERIFYPEER => false,
+                    CURLOPT_COOKIESESSION => true,
+                    CURLOPT_FOLLOWLOCATION => true,
+                    CURLOPT_RETURNTRANSFER => true,
+                    CURLOPT_TIMEOUT => 10
+                ]
+            ]]), $apiConfig);
     }
 }
